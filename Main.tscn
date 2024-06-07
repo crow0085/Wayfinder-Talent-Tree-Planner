@@ -224,7 +224,6 @@ text = "Node Description on Hover:"
 autowrap_mode = 3
 
 [node name="bg" type="Sprite2D" parent="."]
-visible = false
 position = Vector2(653, 542)
 scale = Vector2(0.841935, 0.805185)
 texture = ExtResource("1_qsie8")
@@ -1188,7 +1187,7 @@ offset_top = 751.0
 offset_right = 306.0
 offset_bottom = 791.0
 texture_normal = ExtResource("23_w4my5")
-ConnectedNodes = [NodePath("../103"), NodePath(".")]
+ConnectedNodes = [NodePath("../103"), NodePath("../101")]
 description = "You now cause small amounts of damage to any enemy that hits you with a melee attack. Damage scales with your Physical Defence"
 descLabel = NodePath("../../Stats Panel/MarginContainer/Label")
 
