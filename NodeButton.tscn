@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7x8ynldm3wav"]
+
+[ext_resource type="Texture2D" uid="uid://cgwodfxpojuh8" path="res://Talent Icons/Resilience.png" id="1_fhsxf"]
+[ext_resource type="Script" path="res://NodeButton.gd" id="1_gy3y5"]
+
+[node name="TextureButton" type="TextureButton"]
+anchors_preset = -1
+anchor_left = -0.01
+anchor_top = -0.018
+anchor_right = 0.01
+anchor_bottom = 0.018
+offset_left = -0.799999
+offset_top = -0.559999
+offset_right = 0.799999
+offset_bottom = 0.559999
+pivot_offset = Vector2(20, 20)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture_normal = ExtResource("1_fhsxf")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("1_gy3y5")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
+[connection signal="pressed" from="." to="." method="_on_pressed"]
