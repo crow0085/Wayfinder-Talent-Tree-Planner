@@ -224,6 +224,7 @@ text = "Node Description on Hover:"
 autowrap_mode = 3
 
 [node name="bg" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(653, 542)
 scale = Vector2(0.841935, 0.805185)
 texture = ExtResource("1_qsie8")
